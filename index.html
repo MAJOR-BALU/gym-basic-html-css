@@ -19,7 +19,140 @@
         href="https://fonts.googleapis.com/css2?family=Aubrey&family=Bubblegum+Sans&family=Rubik+Doodle+Shadow&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: white;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        .top {
+            border: 2px solid black;
+            height: 100vh;
+            width: 100vr;
+            background-image: url(project1gym.jpg);
+            background-size: cover;
+        }
+
+        .left {
+            /* border: 2px solid orange; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .left img {
+            display: block;
+            width: 135px;
+            filter: invert(100%);
+
+        }
+
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 54px;
+            right: 65px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 55%;
+            margin: 55px auto;
+            margin-left: 307px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 2px 38px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(91, 153, 247);
+            text-decoration: underline;
+
+        }
+
+        button {
+            margin: 2px 6px;
+            padding: 3px 20px;
+            background: none;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-family: 'Baloo Bhai', cursive;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+
+        }
+
+        .box {
+            background-color: rgba(182, 183, 184, .4);
+            border-radius: 18px;
+            /* border: 2px solid red; */
+            width: 600px;
+            height: 480px;
+            margin: 90px auto;
+            text-align: center;
+            margin-left: 398px
+        }
+
+        .box p {
+            font-size: 59px;
+            margin-top: 30px;
+            margin-bottom: 26px;
+            text-align: left;
+            font-family: 'Rubik Doodle Shadow', system-ui;
+            filter: drop-shadow(2px 4px 6px black);
+            padding-left: 91px;
+        }
+
+        .box h1 {
+            text-align: center;
+            font-size: 52px;
+            padding-top: 40px;
+            font-family: 'Fjalla One', sans-serif;
+            margin-top: 70px;
+            filter: drop-shadow(2px 4px 6px black);
+            margin-bottom: 25px;
+        }
+
+        .box button {
+            padding: 2px 105px;
+            border-radius: 15px;
+            margin-top: 10px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .box button:hover {
+            background-color: black;
+            color: rgb(179, 208, 252);
+
+        }
+    </style>
 </head>
 
 <body>
